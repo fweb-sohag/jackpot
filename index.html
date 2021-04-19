@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/responsiv.css">
+  <title>jackpot</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="30">
+
+  <!-- navbar start  -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="imges/logo.png" class="img-fluid w-100" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#banner">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spin">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#related">games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plan">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tournaments">FAQ </a>
+          </li>
+          <li class="nav-items">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">signup </a>
+          </li>
+          <li class="nav-items">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">login </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+  <!-- Modal singup-->
+  <div class="modal singup fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">welcome to roulette</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>bangladesh</option>
+                <option>bangladesh</option>
+                <option>bangladesh</option>
+                <option>bangladesh</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <!-- Modal login-->
+  <div class="modal login fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabe1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabe1">wallcome to roulette</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal login-->
+  <!-- preloder start  -->
+  <div class="preloder" id="page-preloader">
+    <div class="circle"></div>
+  </div>
+  <!-- preloder ends  -->
+  <!-- banner start -->
+  <section id="banner">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-5 col-md-5  col-sm-6 col-6">
+          <div class="banner-img">
+            <img src="imges/banner.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-sm-6 col-6 offset-lg-1 offset-md-1">
+          <div class="banner-content">
+            <h5>Today’s Jackpot</h5>
+            <h1>777</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <div class="play-btn">
+              <a href="#">play now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- resister section start -->
+    <section id="register">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 col-12  p-0">
+            <div class="register-content no-path">
+              <h4 class="counter">01</h4>
+              <h2>register</h2>
+              <p>Download the app and signup for account</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 col-12 px-0">
+            <div class="register-content">
+              <h4 class="counter">02</h4>
+              <h2>get ready</h2>
+              <p>Download the app and signup for account</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 col-12 px-0">
+            <div class="register-content">
+              <h4 class="counter">03</h4>
+              <h2>enjoy</h2>
+              <p>Download the app and signup for account</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- resister section end -->
+  </section>
+  <!-- banner ends -->
+  <!-- related games start -->
+  <section id="related">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1>related games</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="related-item">
+            <img src="imges/game1.jpg" class="img-fluid w-100" alt="">
+            <div class="overlay">
+              <h4>casino game</h4>
+              <a href="#">play now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="related-item">
+            <img src="imges/game2.jpg" class="img-fluid w-100" alt="">
+            <div class="overlay">
+              <h4>casino game</h4>
+              <a href="#">play now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="related-item">
+            <img src="imges/game3.jpg" class="img-fluid w-100" alt="">
+            <div class="overlay">
+              <h4>casino game</h4>
+              <a href="#">play now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- related games ends -->
+  <!-- spin start  -->
+  <section id="spin">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12 col-12">
+          <div class="spin-img">
+            <img src="imges/tas.png" class="img-fluid w-100" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-12  col-12  col-12offset-md-1">
+          <div class="spain-content">
+            <h1>unlock free spin</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit.
+
+              Excepteur sint occaecat cupidatat non proident, sunt inrunt mollit anim id est laborum. Sed ut
+              perspiciatis unde omnis iste.</p>
+            <a href="#">claim now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- spin end  -->
+  <!-- plan start  -->
+  <section id="plan">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="plan-head">
+            <h1>our pricing plan</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="plan-item text-center">
+            <div class="hbt">featured</div>
+            <h1>trial plan</h1>
+            <h2>0.00</h2>
+            <h6>USD/ per month</h6>
+            <p>editable game Timer</p>
+            <p>upto 10 plyers at a Time</p>
+            <p>etitable score aberaging</p>
+            <p>printable result page</p>
+            <p>X</p>
+            <p>X</p>
+            <a href="#">choose now</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="plan-item text-center">
+            <div class="hbt">featured</div>
+            <h1>standard plan</h1>
+            <h2>9.99</h2>
+            <h6>USD/ per month</h6>
+            <p>editable game Timer</p>
+            <p>upto 10 plyers at a Time</p>
+            <p>etitable score aberaging</p>
+            <p>printable result page</p>
+            <p>X</p>
+            <p>X</p>
+            <a href="#">choose now</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="plan-item text-center">
+            <div class="hbt">featured</div>
+            <h1>platinum plan</h1>
+            <h2>99.99</h2>
+            <h6>USD/ per month</h6>
+            <p>editable game Timer</p>
+            <p>upto 10 plyers at a Time</p>
+            <p>etitable score aberaging</p>
+            <p>printable result page</p>
+            <p>X</p>
+            <p>X</p>
+            <a href="#">choose now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- plan end  -->
+  <!-- tournaments start -->
+  <section id="tournaments">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 col-12 ">
+          <div class="ask">
+            <div class="head">
+              <h1>frequently ask questions</h1>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    01.How can play these games (for begineer)?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, alias.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    02.If I play games and lost by any chance, How I'll pay?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, architecto?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    03.What are the benefits for gambiling?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, debitis!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    04.What are the benefits for gambiling?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, quia.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 col-12 col-12 ">
+          <div class="today">
+            <div class="head">
+              <h1>today's tournaments</h1>
+            </div>
+            <div class="count">
+
+              <h2>time remaining :</h2>
+              <div class="time">
+                <ul>
+                  <li class="time_conter">
+                    <p class="hours"></p>
+                    <p>hours</p>
+                  </li>
+                  <li class="time_conter">
+                    <p class="minutes"></p>
+                    <p>mins</p>
+                  </li>
+                  <li class="time_conter">
+                    <p class="seconds"></p>
+                    <p>secs</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="today-content">
+              <ul class="p-0">
+                <li>
+                  <p>01.razina khan</p>
+                </li>
+                <li><img src="imges/bd1.png" class="img-fluid " alt=""></li>
+                <li>
+                  <p>$365.25</p>
+                </li>
+              </ul>
+              <ul class="p-0">
+                <li>
+                  <p>02. gozina hezzez</p>
+                </li>
+                <li><img src="imges/bd2.png" class="img-fluid" alt="" style="padding-right: 25px;"></li>
+                <li>
+                  <p>$365.25</p>
+                </li>
+              </ul>
+              <ul class="p-0">
+                <li>
+                  <p>03. redwan rizaj</p>
+                </li>
+                <li><img src="imges/bd3.png" class="img-fluid" alt="" style="padding-right: 12px;"></li>
+                <li>
+                  <p>$365.25</p>
+                </li>
+              </ul>
+              <ul class="p-0">
+                <li>
+                  <p>04. redwan rizaj</p>
+                </li>
+                <li><img src="imges/bd4.png" class="img-fluid" alt="" style="padding-right: 12px;"></li>
+                <li>
+                  <p>$365.25</p>
+                </li>
+              </ul>
+              <ul class="p-0">
+                <li>
+                  <p>05.omer rinki</p>
+                </li>
+                <li><img src="imges/bd5.png" class="img-fluid" alt="" style="margin-left: 11px;"></li>
+                <li>
+                  <p>$365.25</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- tournaments end -->
+  <!-- payment method start  -->
+  <section id="payment">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-sm-6 col-12 ">
+          <div class="subscribe">
+            <h1>subscribe for offers</h1>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Your e-mail here" aria-label="Your e-mail here"
+                aria-describedby="button-addon2">
+              <button class="btn " type="button" id="button-addon2"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-sm-6 col-12  offset-lg-1">
+          <div class="head-method">
+            <h1>payment method</h1>
+          </div>
+          <div class="method">
+            <img src="imges/pay1.png" class="img-fluid" alt="">
+            <img src="imges/pay2.png" class="img-fluid" alt="">
+            <img src="imges/pay3.png" class="img-fluid" alt="">
+            <img src="imges/pay4.png" class="img-fluid" alt="">
+            <img src="imges/pay5.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- payment method ends  -->
+  <!-- footer start  -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="jackpot">
+            <h1>about jackpot</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+            <div class="jackpot-icon">
+              <ul class="p-0">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-google-plus-g"></i></li>
+                <li><i class="fab fa-pinterest-p"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="link">
+            <div class="link-head">
+              <h1>important links</h1>
+            </div>
+            <div class="links">
+              <div class="left-link">
+                <ul class="p-0">
+                  <li> <a href="#">live score</a></li>
+                  <li><a href="#">how to play</a></li>
+                  <li><a href="#">tournaments</a></li>
+                  <li><a href="#">registrantion bonus</a></li>
+                  <li><a href="#">contact</a></li>
+                </ul>
+              </div>
+              <div class="left-link">
+
+                <ul class="p-0">
+                  <li><a href="#">help desk</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3  col-sm-6 col-12 offset-lg-1">
+          <div class="security">
+            <div class="security-head">
+              <h1>security info</h1>
+            </div>
+            <div class="security-in">
+              <div class="security-icon">
+                <img src="imges/securaty1.png" class="img-fluid" alt="">
+              </div>
+              <div class="security-content">
+                <p>safe & secure</p>
+                <p>banking</p>
+              </div>
+            </div>
+            <div class="security-in">
+              <div class="security-icon">
+                <img src="imges/securaty2.png" class="img-fluid" alt="">
+              </div>
+              <div class="security-content">
+                <p>safe & secure</p>
+                <p>banking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer ends  -->
+  <!-- footer ends part start  -->
+  <section class="footer-end">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-12">
+          <footer>
+            <h6>&copy; 2018. All rights reserved by Designer</h6>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer ends part end  -->
+  <!-- topToBack start  -->
+  <div class="backToTop">
+    <i class="fas fa-chevron-down"></i>
+  </div>
+  <!-- topToBack end  -->
+
+
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.counterup.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
